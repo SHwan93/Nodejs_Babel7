@@ -11,3 +11,9 @@ babel은 js compiler로써 js를 인풋으로 받아 js을 뱉어준다
 3. preset적용
 
 참고 https://www.codementor.io/osazeedoosagie/easy-set-up-babel-7-for-nodejs-rg3zak6pj
+
+4. ./node_modules/swagger-ui-dist/index.html 의 URL 및 ./node_modules/swagger-ui-dist/swagger.json에 정의
+
+5. swagger.json 작성 방법 
+https://swagger.io/specification/ 
+https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md#swagger-object
