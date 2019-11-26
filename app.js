@@ -2,17 +2,13 @@ const createError = require('http-errors'),
   express = require('express'),
   path = require('path'),
   cookieParser = require('cookie-parser'),
-  logger = require('morgan');
-
-// import SwaggerUI from 'swagger-ui'
-import swagger from 'swagger-ui-dist'
+  logger = require('morgan'),
+  fs = require('fs')
 
 const app = express()
+console.log();
 
-console.log(swagger.absolutePath());
-
-
-app.use('/docs',express.static(swagger.absolutePath()))
+app.use('/docs', express.static('./swagger-ui-dist'))
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

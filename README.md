@@ -12,7 +12,11 @@ babel은 js compiler로써 js를 인풋으로 받아 js을 뱉어준다
 
 참고 https://www.codementor.io/osazeedoosagie/easy-set-up-babel-7-for-nodejs-rg3zak6pj
 
-4. ./node_modules/swagger-ui-dist/index.html 의 URL 및 ./node_modules/swagger-ui-dist/swagger.json에 정의
+4. yarn add swagger-ui-dist 
+
+5. ./node_modules 는 gitignore 처리 이므로 따로 폴더를 뺀후 yarn remove swagger-ui-dist
+
+4. ./swagger-ui-dist/index.html 의 URL 및 ./swagger-ui-dist/swagger.json에 정의
 
 5. swagger.json 작성 방법 
 https://swagger.io/specification/ 
